@@ -1,10 +1,9 @@
 package test;
 
 import dal.IUserDAO;
-import dal.UserDAOImpls134000;
+import dal.UserDAOImpls185141;
 import dal.dto.IUserDTO;
 import dal.dto.UserDTO;
-import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
@@ -14,8 +13,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 
 public class DALTest {
-    //TODO: Indsæt din egen implementering
-    IUserDAO userDAO = new UserDAOImpls134000();
+    IUserDAO userDAO = new UserDAOImpls185141();
     @Test
     public void test() {
         try {
